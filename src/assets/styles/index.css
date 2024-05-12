@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'outfit';
+  font-weight: 100;
+  font-display: auto;
+  unicode-range: U+000-5FF;
+  src: url('./fonts/outfit/Outfit-Thin.woff2');
+}
+
+@font-face {
+  font-family: 'outfit';
+  font-weight: 200;
+  font-display: auto;
+  unicode-range: U+000-5FF;
+  src: url('./fonts/outfit/Outfit-ExtraLight.woff2');
+}
+
+@font-face {
+  font-family: 'outfit';
+  font-weight: 300;
+  font-display: auto;
+  unicode-range: U+000-5FF;
+  src: url('./fonts/outfit/Outfit-Light.woff2');
+}
+
+@font-face {
+  font-family: 'outfit';
+  font-weight: 400;
+  font-display: auto;
+  unicode-range: U+000-5FF;
+  src: url('./fonts/outfit/Outfit-Regular.woff2');
+}
+
+@font-face {
+  font-family: 'outfit';
+  font-weight: 500;
+  font-display: auto;
+  unicode-range: U+000-5FF;
+  src: url('./fonts/outfit/Outfit-Medium.woff2');
+}
+
+@font-face {
+  font-family: 'outfit';
+  font-weight: 600;
+  font-display: auto;
+  unicode-range: U+000-5FF;
+  src: url('./fonts/outfit/Outfit-SemiBold.woff2');
+}
+
+@font-face {
+  font-family: 'outfit';
+  font-weight: 700;
+  font-display: auto;
+  unicode-range: U+000-5FF;
+  src: url('./fonts/outfit/Outfit-Bold.woff2');
+}
+
+@font-face {
+  font-family: 'outfit';
+  font-weight: 800;
+  font-display: auto;
+  unicode-range: U+000-5FF;
+  src: url('./fonts/outfit/Outfit-ExtraBold.woff2');
+}
+
+@font-face {
+  font-family: 'outfit';
+  font-weight: 900;
+  font-display: auto;
+  unicode-range: U+000-5FF;
+  src: url('./fonts/outfit/Outfit-Black.woff2');
+}
+
+body {
+  font-family: outfit !important;
+  font-weight: 400 !important;
+}
+
+.navbar a {
+  @apply opacity-50 transition-all;
+}
+
+.navbar a.active {
+  @apply opacity-100;
+}
