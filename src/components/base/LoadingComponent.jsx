@@ -1,5 +1,12 @@
+import IconLoading from "@/components/icons/IconLoading.jsx";
+
 const LoadingComponent = () => {
-    return <div className="bg-blue-500 fixed inset-0 z-10 flex items-center justify-center">loading</div>
+    return (
+        <div className="bg-white fixed inset-0 z-10 flex flex-col gap-2 items-center justify-center">
+            <IconLoading color="#845dda" />
+            <span>Loading</span>
+        </div>
+    )
 }
 
 export default LoadingComponent

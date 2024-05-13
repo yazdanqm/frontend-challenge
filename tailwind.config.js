@@ -8,6 +8,7 @@ export default {
         extend: {
             colors: {
                 purple: "#845dda",
+                purpleDarker : "#7754c4",
                 lowPurple: "#f8f5fe",
                 lowGray: "#eceaeb",
                 description: "#b1b6c1",
@@ -21,6 +22,8 @@ export default {
                 s18sm : "18px",
                 s16 : "16px",
                 s16sm : "14px",
+                s14 : "14px",
+                s14sm : "12px",
                 s12 : "12px",
                 s12sm : "10px",
             },
