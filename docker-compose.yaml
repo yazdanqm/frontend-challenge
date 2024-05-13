@@ -1,0 +1,7 @@
+version: "1.0"
+services:
+  frontend-challenge:
+    build: .
+    container_name: frontend_challenge_c
+    ports:
+      - '8080:8080'

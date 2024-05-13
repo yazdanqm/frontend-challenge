@@ -10,7 +10,7 @@ export default {
                 purple: "#845dda",
                 purpleDarker : "#7754c4",
                 lowPurple: "#f8f5fe",
-                lowGray: "#eceaeb",
+                lowGray: "#f3f3f3",
                 description: "#b1b6c1",
                 title: "#121421",
                 border: "#eaeff2",
